@@ -1,0 +1,32 @@
+{
+    "build": {
+      "production": {
+        "distribution": "store",
+        "ios": {
+          "simulator": false
+        },
+        "android": {
+          "gradleCommand": ":app:bundleRelease"
+        }
+      },
+      "development": {
+        "distribution": "internal",
+        "developmentClient": true,
+        "ios": {
+          "simulator": false
+        },
+        "android": {
+          "gradleCommand": ":app:assembleDebug"
+        }
+      },
+      "preview": {
+        "distribution": "internal",
+        "android": { "buildType": "apk" },
+        "ios": { "simulator": false }
+      }
+    },
+    "cli": {
+      "version": ">=0.47.0",
+      "appVersionSource": "local"
+    }
+  }

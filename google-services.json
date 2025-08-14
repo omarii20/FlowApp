@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "123253505121",
+    "project_id": "flowapp-e47ae",
+    "storage_bucket": "flowapp-e47ae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123253505121:android:a62f4807e076c2d3e1fe20",
+        "android_client_info": {
+          "package_name": "com.sulieman09.appoinxapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123253505121-p1ni0n3akmgja5sdq7kgeklgsmjmgtrr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-Sp208SHLKrb5DXsgidX_9zilLtYYpnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123253505121-p1ni0n3akmgja5sdq7kgeklgsmjmgtrr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "123253505121-e87neuhp4undiegsuajqqevhoens4h9t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.sakibb.appoinxapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
